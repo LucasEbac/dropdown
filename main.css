@@ -49,7 +49,10 @@ header {
     padding: 8px;
 }
 .produtos{
-    margin: 32px;
+    display: flex;
+    padding: 8px;
+    height: auto;
+    margin: 16px;
     margin-bottom: 16px;
 }
 .conteudo {
@@ -62,6 +65,15 @@ header {
 }
 section h2 {
     margin-bottom: 32px;
+}
+.produtos button {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    padding-bottom: 16px;
+    background-color: #9e4242;
+    cursor: pointer;
+    
 }
 @media screen and (max-width: 767px) {
     .conteudo {
